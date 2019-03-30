@@ -1,7 +1,6 @@
 package soundsystem.javaconfig;
 
 import org.springframework.stereotype.Component;
-import soundsystem.autoconfig.CompactiDisc;
 
 @Component
 public class SgtPeppers implements CompactDisc {

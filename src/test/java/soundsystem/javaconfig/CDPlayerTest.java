@@ -7,9 +7,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import soundsystem.autoconfig.CDPlayerConfig;
-import soundsystem.autoconfig.CompactiDisc;
-import soundsystem.autoconfig.MediaPlayer;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -24,7 +21,7 @@ public class CDPlayerTest {
     @Autowired
     private MediaPlayer player;
     @Autowired
-    private CompactiDisc cd;
+    private CompactDisc cd;
 
     @Test
     public void cdShouldNotBeNull(){
