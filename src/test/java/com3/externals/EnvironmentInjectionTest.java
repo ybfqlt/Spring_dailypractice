@@ -34,4 +34,18 @@ public class EnvironmentInjectionTest {
             assertEquals("Rattle and Hum",blankDisc.getTitle());
         }
     }
+
+    @RunWith(SpringJUnit4ClassRunner.class)
+    @ContextConfiguration("classpath:placeholder-config.xml")
+    public static class InjectFromProperties_XMLConfig{
+        @Autowired
+        private BlankDisc blankDisc;
+
+        @Test
+        public void assertBlankDiscProperties(){
+            assertEquals("The Beatles", blankDisc.getArtist());
+            assertEquals("Sgt. Peppers Lonely Hearts Club Band",blankDisc.getTitle());
+        }
+
+    }
 }

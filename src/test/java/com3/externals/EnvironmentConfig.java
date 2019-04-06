@@ -17,6 +17,6 @@ public class EnvironmentConfig {
     public BlankDisc blankDisc(){
         return new BlankDisc(
                 env.getProperty("disc.title"),
-                env.getProperty("disc.artist"));
+                env.getProperty("disc.artist"));//得到相应的属性
     }
 }

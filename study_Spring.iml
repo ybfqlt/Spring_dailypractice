@@ -12,6 +12,9 @@
         <fileset id="fileset3" name="Scoped Beans" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/scoped-beans.xml</file>
         </fileset>
+        <fileset id="fileset4" name="Placeholder Config" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/placeholder-config.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
