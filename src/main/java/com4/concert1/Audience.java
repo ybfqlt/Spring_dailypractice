@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.*;
 
 //使用环绕通知重新实现Audience切面
 
-@Aspect
+/*@Aspect
 public class Audience{
     @Pointcut("execution(* *com4.concert1.Performance.perform(..))")
     public void performance(){}
@@ -22,9 +22,8 @@ public class Audience{
             System.out.println("退票!");
         }
     }
-}
+}*/
 
-/*
 
 //通过@Pointcut注解声明频繁使用的切点表达式
 @Aspect
@@ -52,7 +51,6 @@ public class Audience{
         System.out.println("要求退票!");
     }
 }
-*/
 
 
 
