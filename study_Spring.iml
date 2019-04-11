@@ -15,6 +15,9 @@
         <fileset id="fileset4" name="Placeholder Config" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/placeholder-config.xml</file>
         </fileset>
+        <fileset id="fileset5" name="Point" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/point.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

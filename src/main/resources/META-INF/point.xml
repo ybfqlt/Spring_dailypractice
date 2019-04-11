@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="audience" class="com4.xmlconcert.Audience"/>
+    <bean id="dancer" class="com4.concert1.Dancer" />
+    <aop:config>
+           <aop:aspect ref = "audience">
+               <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="silenceCellphones"/>
+               <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="takeSeats"/>
+               <aop:after-returning pointcut="execution(* *com4.concert1.Performance.perform(..))" method="applause"/>
+               <aop:after-throwing pointcut="execution(* *com4.concert1.Performance.perform(..))" method="demandRefund" />
+           </aop:aspect>
+       </aop:config>
+</beans>
