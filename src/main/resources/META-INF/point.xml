@@ -8,12 +8,25 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd">
     <bean id="audience" class="com4.xmlconcert.Audience"/>
     <bean id="dancer" class="com4.concert1.Dancer" />
-    <aop:config>
+    <!--使用重复型-->
+  <!--  <aop:config>
            <aop:aspect ref = "audience">
                <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="silenceCellphones"/>
                <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="takeSeats"/>
                <aop:after-returning pointcut="execution(* *com4.concert1.Performance.perform(..))" method="applause"/>
                <aop:after-throwing pointcut="execution(* *com4.concert1.Performance.perform(..))" method="demandRefund" />
            </aop:aspect>
-       </aop:config>
+       </aop:config>-->
+
+
+    <!--使用<aop:pointcut>元素消除重复内容-->
+    <aop:config>
+            <aop:aspect ref="audience">
+                <aop:pointcut id="performance" expression="execution(* *com4.concert1.Performance.perform(..))" />
+                <aop:before pointcut-ref="performance" method="silenceCellphones" />
+                <aop:before pointcut-ref="performance" method="takeSeats" />
+                <aop:after-returning pointcut-ref="performance" method="applause" />
+                <aop:after-throwing pointcut-ref="performance" method="demandRefund" />
+            </aop:aspect>
+    </aop:config>
 </beans>
