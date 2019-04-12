@@ -18,6 +18,9 @@
         <fileset id="fileset5" name="Point" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/META-INF/point.xml</file>
         </fileset>
+        <fileset id="fileset6" name="Xxconcert2xml" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/xxconcert2xml.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
