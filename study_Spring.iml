@@ -21,6 +21,9 @@
         <fileset id="fileset6" name="Xxconcert2xml" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/META-INF/xxconcert2xml.xml</file>
         </fileset>
+        <fileset id="fileset7" name="Ruconcert" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/ruconcert.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
