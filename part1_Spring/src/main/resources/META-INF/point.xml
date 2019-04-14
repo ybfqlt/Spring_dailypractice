@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--使用重复型-->
+    <!--<bean id="audience" class="com4.xmlconcert.Audience"/>
+  <bean id="dancer" class="com4.concert1.Dancer" />
+     <aop:config>
+         <aop:aspect ref = "audience">
+             <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="silenceCellphones"/>
+             <aop:before pointcut="execution(* *com4.concert1.Performance.perform(..))" method="takeSeats"/>
+             <aop:after-returning pointcut="execution(* *com4.concert1.Performance.perform(..))" method="applause"/>
+             <aop:after-throwing pointcut="execution(* *com4.concert1.Performance.perform(..))" method="demandRefund" />
+         </aop:aspect>
+     </aop:config>-->
+
+
+    <!--使用<aop:pointcut>元素消除重复内容-->
+    <!--<bean id="audience" class="com4.xmlconcert.Audience"/>
+        <bean id="dancer" class="com4.concert1.Dancer" />
+        <aop:config>
+                <aop:aspect ref="audience">
+                    <aop:pointcut id="performance" expression="execution(* *com4.concert1.Performance.perform(..))" />
+                    <aop:before pointcut-ref="performance" method="silenceCellphones" />
+                    <aop:before pointcut-ref="performance" method="takeSeats" />
+                    <aop:after-returning pointcut-ref="performance" method="applause" />
+                    <aop:after-throwing pointcut-ref="performance" method="demandRefund" />
+                </aop:aspect>
+        </aop:config>-->
+
+
+    <!--使用环绕通知-->
+    <bean id="audience" class="com4.xmlaroundconcert.Audience"/>
+    <bean id="dancer" class="com4.concert1.Dancer" />
+    <aop:config>
+        <aop:aspect ref="audience">
+            <aop:pointcut id="performance" expression="execution(* *com4.concert1.Performance.perform(..))"/>
+            <aop:around pointcut-ref="performance" method="watchPerformance" />
+        </aop:aspect>
+    </aop:config>
+</beans>
