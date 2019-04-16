@@ -2,115 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/test/java/comm/myapp/DataSourceConfigTest.java" line="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/resources/test-data.sql" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1ec1e2-4fa8-4979-98c9-8964ed7ad71d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/6a1b1028-739c-462f-9143-a2759ef2588c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dictionaries/ltt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_parent_34.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/BraveKnight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/DamselRescuingKnight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/KnightMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/Minstrel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/Quest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/RescueDamselQuest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/springinaction/knights/SlayDragonQuest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/conditional/MagicBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/conditional/MagicConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/conditional/MagicExistsCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/externals/BlankDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/scopedbeans/Notepad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com3/scopedbeans/UniqueThing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/chuancanconcert/TrackCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert/BlankDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert/CompactDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert/TrackCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert/TrackCounterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert1/Audience.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert1/ConcertConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert1/Dancer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert1/Performance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/BackSinger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/ConcertConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/Dancer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/Performance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/concert2/SingerIntroducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/xmlaroundconcert/Audience.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/xmlconcert/Audience.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/zhuruA/CriticAspect.aj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/zhuruA/CriticismEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/zhuruA/CriticismEngineImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/zhuruA/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com4/zhuruA/Performance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/comm/myapp/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/autoconfig/CDPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/autoconfig/CDPlayerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/autoconfig/CompactiDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/autoconfig/MediaPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/autoconfig/SgtPeppers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/javaconfig/CDPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/javaconfig/CDPlayerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/javaconfig/CompactDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/javaconfig/MediaPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/javaconfig/SgtPeppers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/BlankDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/CDPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/CDPlayerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/CompactDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/MediaPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/SgtPeppers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/collections/BlankDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/properties/BlankDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/soundsystem/xmlconfig/properties/CDPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/knights.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/point.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/ruconcert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/soundsystem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/track.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/xxconcert2xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/app.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/datasource-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/placeholder-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/scoped-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/test-data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/springinaction/knights/BraveKnightTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/conditional/MagicExistsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/externals/EnvironmentConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/externals/EnvironmentConfigWithDefaults.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/externals/EnvironmentConfigWithRequiredProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/externals/EnvironmentInjectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/scopedbeans/ComponentScannedConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/scopedbeans/ExplicitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com3/scopedbeans/ScopedBeanTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/chuacanconcert/TrackCounterMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/concert/TrackCounterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/concert1/Performtest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/concert2/SingerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/xmlaroundconcert/performancexmlMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/xmlconcert/performancexmlMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/xmlconcert2/SingerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com4/zhuruA/ruTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/comm/myapp/DataSourceConfigTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/soundsystem/autoconfig/CDPlayerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/soundsystem/javaconfig/CDPlayerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/soundsystem/xmlconfig/CNamespaceReferenceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -161,33 +57,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/comm/myapp/DataSourceConfigTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com3/conditional/MagicBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com4/zhuruA/Music.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com3/externals/BlankDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/Notepad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/UniqueThing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com4/chuancanconcert/TrackCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/CompactDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/TrackCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-              </folding>
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -204,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com4/zhuruA/ruTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="216">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -242,14 +178,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com4/concert/TrackCounterConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert/ConcertConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/soundsystem/xmlconfig/BlankDisc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com4/concert/CompactDisc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert/BlankDisc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert1/Performance.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert1/Dancer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert1/ConcertConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com4/concert1/Performtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert1/Audience.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com4/concert/TrackCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com4/concert/TrackCounterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert2/Singer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com4/concert2/Performance.java" />
@@ -263,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com4/xmlaroundconcert/Audience.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/point.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com4/xmlaroundconcert/performancexmlMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com4/chuancanconcert/TrackCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com4/chuacanconcert/TrackCounterTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/track.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com4/chuacanconcert/TrackCounterMain.java" />
@@ -282,6 +215,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com4/zhuruA/CriticismEngineImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/ruconcert.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com4/zhuruA/CriticAspect.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com4/chuancanconcert/TrackCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com4/concert/CompactDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com4/concert/TrackCounter.java" />
       </list>
     </option>
   </component>
@@ -300,10 +236,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1693" />
-    <option name="y" value="91" />
-    <option name="width" value="673" />
-    <option name="height" value="555" />
+    <option name="x" value="1445" />
+    <option name="y" value="118" />
+    <option name="width" value="1024" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -352,6 +288,50 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com3" type="462c0819:PsiDirectoryNode" />
               <item name="conditional" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com3" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com3" type="462c0819:PsiDirectoryNode" />
+              <item name="scopedbeans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com4" type="462c0819:PsiDirectoryNode" />
+              <item name="chuancanconcert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com4" type="462c0819:PsiDirectoryNode" />
+              <item name="concert" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -523,6 +503,8 @@
       <workItem from="1555243704848" duration="174000" />
       <workItem from="1555244864276" duration="2672000" />
       <workItem from="1555249019183" duration="359000" />
+      <workItem from="1555296944990" duration="2023000" />
+      <workItem from="1555420353976" duration="257000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1553867798277</created>
@@ -721,7 +703,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139694000" />
+    <option name="totallyTimeSpent" value="141974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
@@ -750,7 +732,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.44509518" side_tool="true" visible="true" weight="0.46624804" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.44509518" side_tool="true" visible="true" weight="0.2433281" />
       <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49926794" weight="0.32967034" />
       <window_info anchor="bottom" id="Problems" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -794,7 +776,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="04-13" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com4/xmlconcert2/SingerIntroducer.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com4/concert/TrackCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -939,23 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/CompactDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/TrackCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/TrackCounterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1005,36 +969,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/Notepad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/UniqueThing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com4/zhuruA/ruconfig.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com4/zhuruA/zhuruMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com3/externals/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com3/conditional/MagicBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com3/conditional/MagicConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1101,6 +1037,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comm/myapp/DataSourceConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com4/zhuruA/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1119,16 +1065,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/comm/myapp/DataSourceConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com4/zhuruA/ruTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="216">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1136,11 +1075,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com3/conditional/MagicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com3/externals/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com3/scopedbeans/UniqueThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com4/chuancanconcert/TrackCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com4/concert/TrackCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
