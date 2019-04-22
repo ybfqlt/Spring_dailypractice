@@ -17,6 +17,17 @@
     <body>
         <div class =spittleForm">
             <h1>Spit it out</h1>
+            <from method="POST", name="spittleFrom">
+                <input type="hidden" name="latitude">
+                <input type="hidden" name="longitude">
+                <textarea name="submit" value="Add" />
+            </from>
         </div>
+    <div class="listTitle">
+        <h1>Recent Spittles</h1>
+        <ul class="spittleList">
+            <c:forEach items="${spittleList}" var="spittle"></c:forEach>
+        </ul>
+    </div>
     </body>
 </html>
