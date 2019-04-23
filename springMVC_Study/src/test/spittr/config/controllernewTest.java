@@ -1,7 +1,6 @@
 package spittr.config;
 
 import static org.hamcrest.CoreMatchers.hasItems;
-import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
