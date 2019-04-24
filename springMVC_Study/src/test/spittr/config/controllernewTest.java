@@ -17,6 +17,7 @@ import org.springframework.web.servlet.view.InternalResourceView;
 import spittr.Spittle;
 import spittr.data.SpittleRepository;
 import spittr.web.SpittleController;
+
 /**
  * ClassName    springMVC_Study-controllernewTest
  * Description
@@ -25,6 +26,7 @@ import spittr.web.SpittleController;
  * @date: 19-4-21 下午10:28
  * @since: JDK 1.8
  */
+
 public class controllernewTest {
     @Test
     public void shouldShowRecentSpittles() throws Exception {
