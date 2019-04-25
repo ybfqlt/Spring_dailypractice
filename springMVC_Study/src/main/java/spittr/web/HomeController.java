@@ -14,9 +14,15 @@ public class HomeController {
 }*/
 
 @Controller
-@RequestMapping("/")
+@RequestMapping({"/","/homepage"})
 public class HomeController{
     @RequestMapping(method=GET)
+    /**
+     * description:home()方法返回视图名
+     *
+     * @param
+     * @return java.lang.String
+     */
     public String home(){
         return "home";
     }

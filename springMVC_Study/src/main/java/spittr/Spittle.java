@@ -14,6 +14,15 @@ public class Spittle {
     public Spittle(String message,Date time){
         this(message,time,null,null);
     }
+    /**
+     * description:构造器
+     *
+     * @param message 消息内容
+     * @param time 时间戳
+     * @param longitude Spittle发布对应的经纬度
+     * @param latitude 同上
+     * @return
+     */
     public Spittle(String message,Date time,Double longitude,Double latitude){
         this.id=null;
         this.message = message;

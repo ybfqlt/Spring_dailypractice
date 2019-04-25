@@ -32,9 +32,10 @@ public class controllernewTest {
     public void shouldShowRecentSpittles() throws Exception {
         List<Spittle> expectedSpittles = createSpittleList(20);
         SpittleRepository mockRepository = mock(SpittleRepository.class);
+        //预期的max和count参数
         when(mockRepository.findSpittles(Long.MAX_VALUE, 20)).thenReturn(expectedSpittles);
         SpittleController controller = new SpittleController(mockRepository);
-        MockMvc mockMvc = standaloneSetup(controller).setSingleView(new InternalResourceView("/WEB-INF/views/spittles.jsp")).build();
+        MockMvc mockMvc = standaloneSetup(controller).setSingleView(new InternalResourceView("views/spittles.jsp")).build();
         mockMvc.perform(get("/spittles")).andExpect(view().name("spittles")).andExpect(model().attributeExists("spittleList")).andExpect(model().attribute("spittleList", hasItems(expectedSpittles.toArray())));
     }
     private List<Spittle> createSpittleList(int count) {

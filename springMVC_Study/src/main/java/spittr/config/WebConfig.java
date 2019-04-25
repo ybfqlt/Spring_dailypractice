@@ -28,6 +28,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         resolver.setExposeContextBeansAsAttributes(true);
         return resolver;
     }
+    @Bean
+
+
 
     /**
      * description:配置静态资源的处理

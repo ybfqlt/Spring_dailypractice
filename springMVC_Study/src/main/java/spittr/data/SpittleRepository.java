@@ -5,15 +5,17 @@ import spittr.Spittle;
 import java.util.List;
 
 /**
- * ClassName    springMVC_Study-SpittleRepository
- * Description
+ * description:这是一个能获取spittle列表的Repository
  *
- * @author: ltt
- * @date: 19-4-21 下午10:36
- * @since: JDK 1.8
  */
 public interface SpittleRepository {
     List<Spittle> findRecentSpittles();
+    /**
+     *
+     * @param max 返回的Spittle中,Spittle ID属性的最大值
+     * @param count 表明要返回多少个Spittle对象
+     * @return java.util.List<spittr.Spittle>
+     */
     List<Spittle> findSpittles(long max, int count);
     Spittle findOne(long id);
     void save(Spittle spittle);
