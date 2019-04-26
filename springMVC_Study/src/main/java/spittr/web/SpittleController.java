@@ -21,6 +21,7 @@ import spittr.data.SpittleRepository;
 public class SpittleController {
      private SpittleRepository spittleRepository;
 
+//     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
      @Autowired
      public SpittleController(SpittleRepository spittleRepository) {
          this.spittleRepository = spittleRepository;
