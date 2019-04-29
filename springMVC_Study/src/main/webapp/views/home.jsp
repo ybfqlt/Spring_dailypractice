@@ -11,12 +11,9 @@
   <head>
     <title>Spittr</title>
     <link rel="stylesheet"
-          type="resources/style.scss"
-          <%--href="<c:url value="/resources/style.css" />"--%> >
+          type="resources/style.scss">
   </head>
   <body>
     <h1>Welcome to Spittr</h1>
-    <%--<a href="<c:url value="/spittles" />">Spittles</a>
-    <a href="<c:url value="/spitter/register" />">Register</a>--%>
   </body>
 </html>
