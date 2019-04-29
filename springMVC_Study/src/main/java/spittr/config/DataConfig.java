@@ -1,4 +1,5 @@
 package spittr.config;
+/*
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,11 +10,13 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 import javax.sql.DataSource;
 
+*/
 /**
  * @Author: ltt
  * @Date: 19-4-26 上午11:38
  * @since: JDK 1.8
- */
+ *//*
+
 
 @Configuration
 public class DataConfig {
@@ -28,3 +31,4 @@ public class DataConfig {
         return new JdbcTemplate(dataSource);
     }
 }
+*/

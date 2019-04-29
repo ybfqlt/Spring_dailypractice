@@ -28,18 +28,18 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         resolver.setExposeContextBeansAsAttributes(true);
         return resolver;
     }
-    @Bean
+   /* @Bean
 
 
 
-    /**
+    *//**
      * description:配置静态资源的处理
-     */
+     *//*
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer){
-        /**
+        *//**
          * description: 启用转发到"默认"的servlet
-         */
+         *//*
         configurer.enable();
-    }
+    }*/
 }

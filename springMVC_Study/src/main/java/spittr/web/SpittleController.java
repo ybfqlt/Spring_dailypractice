@@ -1,4 +1,4 @@
-package spittr.web;
+/*package spittr.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import spittr.data.SpittleRepository;
 
-/**
+*//**
  * ClassName    springMVC_Study-SpittleController
  * Description
  *
  * @author: ltt
  * @date: 19-4-21 下午10:47
  * @since: JDK 1.8
- */
+ *//*
 
 @Controller
 @RequestMapping("/spittles")   //给该类所有配置的映射地址前加上了一个地址
@@ -34,4 +34,4 @@ public class SpittleController {
         //处理器会将值放入模型，视图名根据请求路径推断
         return "spittles";
     }
-}
+}*/
