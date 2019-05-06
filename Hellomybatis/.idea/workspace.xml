@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075b8e5f-2a09-40c9-bd7a-4a814a4665a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hellomybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1_Spring/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1_Spring/.idea/workspace.xml" afterDir="false" />
@@ -144,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="140">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,10 +172,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1614" />
-    <option name="y" value="83" />
-    <option name="width" value="996" />
-    <option name="height" value="578" />
+    <option name="x" value="1562" />
+    <option name="y" value="48" />
+    <option name="width" value="1016" />
+    <option name="height" value="586" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,8 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,17 +258,27 @@
       <updated>1557075528185</updated>
       <workItem from="1557075531983" duration="1290000" />
       <workItem from="1557078045281" duration="2746000" />
-      <workItem from="1557083039486" duration="612000" />
+      <workItem from="1557083039486" duration="2986000" />
+      <workItem from="1557140977413" duration="841000" />
     </task>
+    <task id="LOCAL-00001" summary="5/05认识Mybatis核心组件">
+      <created>1557086136773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557086136773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4648000" />
+    <option name="totallyTimeSpent" value="7863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,7 +296,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.18876755" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.0873635" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,6 +311,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5/05认识Mybatis核心组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/05认识Mybatis核心组件" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml.tld" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.tld" />
@@ -320,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="140">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

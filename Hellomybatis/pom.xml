@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-    <!-- 日志文件管理包 -->
+    <!--日志管理-->
     <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
