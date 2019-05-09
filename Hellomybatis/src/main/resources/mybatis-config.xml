@@ -21,6 +21,6 @@
     <!--映射文件-->
     <mappers>
         <mapper resource="com/learn/ssm/chapter3/mapper/RoleMapper.xml"/>
-        <!--<mapper class="com.learn.ssm.chapter3.mapper.RoleMapper"/>-->
+        <mapper class="com.learn.ssm.chapter3.mapper.RoleMapper2"/>
     </mappers>
 </configuration>

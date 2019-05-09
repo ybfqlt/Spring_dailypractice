@@ -1,6 +1,7 @@
 package com.learn.ssm.chapter3.main;
 
 import com.learn.ssm.chapter3.mapper.RoleMapper;
+import com.learn.ssm.chapter3.mapper.RoleMapper2;
 import com.learn.ssm.chapter3.pojo.Role;
 import com.learn.ssm.chapter3.utils.SqlSessionFactoryUtils;
 import org.apache.ibatis.session.SqlSession;
@@ -14,7 +15,7 @@ import org.apache.log4j.Logger;
 public class Chapter3Main {
     public static void main(String[] args) {
         testRoleMapper();
-        /*testRoleMapper2();*/
+        testRoleMapper2();
     }
     private static void testRoleMapper() {
         Logger log = Logger.getLogger(Chapter3Main.class);
@@ -31,7 +32,7 @@ public class Chapter3Main {
         }
     }
 
-    /*//注解SQL测试
+    //注解SQL测试
     private static void testRoleMapper2() {
         Logger log = Logger.getLogger(Chapter3Main.class);
         SqlSession sqlSession = null;
@@ -45,5 +46,5 @@ public class Chapter3Main {
                 sqlSession.close();
             }
         }
-    }*/
+    }
 }
