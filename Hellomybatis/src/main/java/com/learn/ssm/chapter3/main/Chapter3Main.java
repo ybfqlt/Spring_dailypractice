@@ -2,8 +2,11 @@ package com.learn.ssm.chapter3.main;
 
 import com.learn.ssm.chapter3.mapper.RoleMapper;
 import com.learn.ssm.chapter3.mapper.RoleMapper2;
+import com.learn.ssm.chapter3.mapper.UserMapper;
 import com.learn.ssm.chapter3.pojo.Role;
+import com.learn.ssm.chapter3.pojo.User;
 import com.learn.ssm.chapter3.utils.SqlSessionFactoryUtils;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 
@@ -14,10 +17,11 @@ import org.apache.log4j.Logger;
  */
 public class Chapter3Main {
     public static void main(String[] args) {
-        testRoleMapper();
-        testRoleMapper2();
+          testUserMapper();
+//        testRoleMapper();
+//        testRoleMapper2();
     }
-    private static void testRoleMapper() {
+    /*private static void testRoleMapper() {
         Logger log = Logger.getLogger(Chapter3Main.class);
         SqlSession sqlSession = null;
         try {
@@ -30,10 +34,24 @@ public class Chapter3Main {
                 sqlSession.close();
             }
         }
+    }*/
+    private static void testUserMapper() {
+        Logger log = Logger.getLogger(Chapter3Main.class);
+        SqlSession sqlSession = null;
+        try {
+            sqlSession = SqlSessionFactoryUtils.openSqlSession();
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            User user = userMapper.getUser(1L);
+            log.info(user.getSex().getName());
+        } finally {
+            if (sqlSession != null) {
+                sqlSession.close();
+            }
+        }
     }
 
     //注解SQL测试
-    private static void testRoleMapper2() {
+    /*private static void testRoleMapper2() {
         Logger log = Logger.getLogger(Chapter3Main.class);
         SqlSession sqlSession = null;
         try {
@@ -46,5 +64,5 @@ public class Chapter3Main {
                 sqlSession.close();
             }
         }
-    }
+    }*/
 }
