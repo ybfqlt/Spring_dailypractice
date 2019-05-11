@@ -4,9 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/.idea/workspace.xml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="075b8e5f-2a09-40c9-bd7a-4a814a4665a1" name="Default Changelist" comment="">
+    <list default="true" id="075b8e5f-2a09-40c9-bd7a-4a814a4665a1" name="Default Changelist" comment="5/11测试EnumTypeHandler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/typehandler/SexEnumTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/learn/ssm/chapter3/typehandler/SexEnumTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4dcbbc02-42c1-40dd-b1af-7410da6d4c96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4dcbbc02-42c1-40dd-b1af-7410da6d4c96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/ssm/chapter3/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/ssm/chapter3/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1_Spring/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1_Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1_Spring/.idea/workspace.xml" afterDir="false" />
@@ -149,11 +154,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/main/Chapter3Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="99">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,20 +175,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-end-line="35" />
+            <state relative-caret-position="285">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/RoleMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/typehandler/SexEnumTypeHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="465">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,7 +208,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/enumeration/SexEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="120">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
@@ -212,8 +217,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="185">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -222,7 +227,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -230,8 +235,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="111">
+              <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -284,6 +289,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/enumeration/SexEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/typehandler/SexEnumTypeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml" />
       </list>
     </option>
@@ -511,7 +517,7 @@
       <workItem from="1557290140203" duration="144000" />
       <workItem from="1557387403563" duration="16270000" />
       <workItem from="1557570962872" duration="6838000" />
-      <workItem from="1557592407030" duration="11649000" />
+      <workItem from="1557592407030" duration="14016000" />
     </task>
     <task id="LOCAL-00001" summary="5/05认识Mybatis核心组件">
       <created>1557086136773</created>
@@ -576,15 +582,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557576627202</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5/11测试EnumTypeHandler">
+      <created>1557578196541</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557578196541</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42967000" />
+    <option name="totallyTimeSpent" value="45334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -593,10 +605,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" sideWeight="0.4978038" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49707174" weight="0.32917318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4816984" weight="0.13104524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4795022" visible="true" weight="0.25585023" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853587" weight="0.4648986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -605,7 +617,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021962" side_tool="true" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5204978" side_tool="true" visible="true" weight="0.25585023" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49267936" weight="0.23088923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -630,7 +642,8 @@
     <MESSAGE value="5/11使用jdbc.properties文件" />
     <MESSAGE value="5/11自定义typeHandler" />
     <MESSAGE value="5/11测试EnumOrdinalTypeHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/11测试EnumOrdinalTypeHandler" />
+    <MESSAGE value="5/11测试EnumTypeHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/11测试EnumTypeHandler" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml.tld" />
@@ -727,14 +740,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -771,32 +777,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/enumeration/SexEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="120">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/typehandler/SexEnumTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-end-line="35" />
+        <state relative-caret-position="465">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/main/Chapter3Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="99">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/ssm/chapter3/mapper/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>

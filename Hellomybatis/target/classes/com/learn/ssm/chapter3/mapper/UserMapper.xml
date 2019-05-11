@@ -9,7 +9,8 @@
       <result property="password" column="password"/>
 <!--      <result property="sex" column="sex" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"></result>-->
 
-      <result property="sex" column="sex" typeHandler="org.apache.ibatis.type.EnumTypeHandler"></result>
+      <!--<result property="sex" column="sex" typeHandler="org.apache.ibatis.type.EnumTypeHandler"></result>-->
+      <result property="sex" column="sex" typeHandler="com.learn.ssm.chapter3.typehandler.SexEnumTypeHandler"></result>
       <result property="mobile" column="mobile"/>
       <result property="tel" column="tel"/>
       <result property="email" column="email"/>
