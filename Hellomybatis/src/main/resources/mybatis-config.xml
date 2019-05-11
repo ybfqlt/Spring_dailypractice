@@ -12,6 +12,9 @@
     <properties resource="jdbc.properties"/>
     <typeAliases><!--别名-->
         <typeAlias alias="role" type="com.learn.ssm.chapter3.pojo.Role"/>
+        <typeAlias alias="user" type="com.learn.ssm.chapter3.pojo.User"/>
+        <!--扫描别名-->
+<!--        <package name="com.learn.ssm.chapter4.pojo"/>-->
     </typeAliases>
     <!--数据库环境-->
     <environments default="development">

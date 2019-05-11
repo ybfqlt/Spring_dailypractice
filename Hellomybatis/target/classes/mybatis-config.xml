@@ -3,14 +3,18 @@
             PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
             "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <properties>
+    <!--<properties>
         <property name="database.driver" value="com.mysql.cj.jdbc.Driver"/>
         <property name="database.url" value="jdbc:mysql://localhost:3306/chapter3"/>
         <property name="database.username" value="root"/>
         <property name="database.password" value="tian787604"/>
-    </properties>
+    </properties>-->
+    <properties resource="jdbc.properties"/>
     <typeAliases><!--别名-->
         <typeAlias alias="role" type="com.learn.ssm.chapter3.pojo.Role"/>
+        <typeAlias alias="user" type="com.learn.ssm.chapter3.pojo.User"/>
+        <!--扫描别名-->
+<!--        <package name="com.learn.ssm.chapter4.pojo"/>-->
     </typeAliases>
     <!--数据库环境-->
     <environments default="development">
