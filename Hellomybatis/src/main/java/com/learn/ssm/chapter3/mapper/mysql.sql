@@ -30,3 +30,6 @@ create table t_user
 
 insert into t_user(user_name,password,sex,mobile,tel,email,note)
 values('user_name_1','pwd',1,'13888888888','010-88888888','y666@163.com','note_1');
+
+alter table t_user modify sex varchar(10);
+update t_user set sex='FEMALE' where sex='1';
