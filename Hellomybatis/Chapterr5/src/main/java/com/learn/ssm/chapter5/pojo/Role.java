@@ -1,7 +1,7 @@
-package com.com.learn.ssm.chapter5.pojo;
+package com.learn.ssm.chapter5.pojo;
 
 /**
- * @Classname Role
+ * @Classname com.learn.ssm.chapter5.pojo.Role
  * @Description TODO
  * @Date 19-5-13 下午9:06
  * @Created by ltt
