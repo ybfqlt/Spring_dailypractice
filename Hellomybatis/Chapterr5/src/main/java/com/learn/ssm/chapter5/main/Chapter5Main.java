@@ -19,6 +19,7 @@ public class Chapter5Main {
         testRowBounds();
     }
 
+
     private static void testRowBounds(){
         SqlSession sqlSession = null;
         try{
