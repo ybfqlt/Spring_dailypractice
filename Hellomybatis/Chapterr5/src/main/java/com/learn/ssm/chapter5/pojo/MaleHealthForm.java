@@ -6,7 +6,7 @@ package com.learn.ssm.chapter5.pojo;
  * @Date 19-5-15 下午9:50
  * @Created by ltt
  */
-public class MaleHealthForm extends HealthForm {
+public class MaleHealthForm extends HealthForm{
     private String prostate;
 
     public String getProstate() {
@@ -16,4 +16,5 @@ public class MaleHealthForm extends HealthForm {
     public void setProstate(String prostate) {
         this.prostate = prostate;
     }
+
 }
