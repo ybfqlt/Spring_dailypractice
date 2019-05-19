@@ -20,6 +20,7 @@ public class SqlSessionFactoryUtils {
     private SqlSessionFactoryUtils(){}
 
     public static SqlSessionFactory getSqlSessionFactory(){
+        //使用synchronized关键字加锁，方式在多线程中多次实例化SqlSessionFactory对象，从而保证SqlSessionFactory的唯一性
         synchronized(LOCK) {
             if (sqlSessionFactory != null) {
                 return sqlSessionFactory;

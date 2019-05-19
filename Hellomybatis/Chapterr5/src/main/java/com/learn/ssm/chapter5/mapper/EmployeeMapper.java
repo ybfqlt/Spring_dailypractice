@@ -9,5 +9,5 @@ import com.learn.ssm.chapter5.pojo.Employee;
  * @Created by ltt
  */
 public interface EmployeeMapper {
-    public Employee getEmployee(long id);
+    public Employee getEmployee(Long id);
 }
