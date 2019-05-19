@@ -6,7 +6,7 @@ package com.learn.ssm.chapter5.pojo;
  * @Date 19-5-15 下午9:49
  * @Created by ltt
  */
-public class FemaleHealthForn extends HealthForm {
+public class FemaleHealthForm extends HealthForm {
     private String uterus;
 
     public String getUterus() {

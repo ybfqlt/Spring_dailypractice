@@ -1,5 +1,7 @@
 package com.learn.ssm.chapter5.mapper;
 
+import com.learn.ssm.chapter5.pojo.FemaleHealthForm;
+
 /**
  * @Classname FemaleHealthFormMapper
  * @Description TODO
@@ -7,4 +9,5 @@ package com.learn.ssm.chapter5.mapper;
  * @Created by ltt
  */
 public interface FemaleHealthFormMapper {
+    public FemaleHealthForm getFemaleHealthForm(long emp_id);
 }

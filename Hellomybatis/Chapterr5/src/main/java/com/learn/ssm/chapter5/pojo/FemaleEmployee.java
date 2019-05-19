@@ -7,13 +7,13 @@ package com.learn.ssm.chapter5.pojo;
  * @Created by ltt
  */
 public class FemaleEmployee {
-    private FemaleHealthForn femaleHealthForn = null;
+    private FemaleHealthForm femaleHealthForm = null;
 
-    public FemaleHealthForn getFemaleHealthForn() {
-        return femaleHealthForn;
+    public FemaleHealthForm getFemaleHealthForn() {
+        return femaleHealthForm;
     }
 
-    public void setFemaleHealthForn(FemaleHealthForn femaleHealthForn) {
-        this.femaleHealthForn = femaleHealthForn;
+    public void setFemaleHealthForn(FemaleHealthForm femaleHealthForn) {
+        this.femaleHealthForm = femaleHealthForn;
     }
 }

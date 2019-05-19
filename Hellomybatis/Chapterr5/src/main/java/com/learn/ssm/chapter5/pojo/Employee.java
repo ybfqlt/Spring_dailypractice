@@ -19,15 +19,16 @@ public class Employee {
     private String email;
     private String position;
     private String note;
+    private String birthday;
     private WorkCard workCard;
-    private List<EmployeeTask> emplyeeTaskList = null;
+    private List<EmployeeTask> employeeTaskList = null;
 
     public List<EmployeeTask> getEmplyeeTaskList() {
-        return emplyeeTaskList;
+        return employeeTaskList;
     }
 
     public void setEmplyeeTaskList(List<EmployeeTask> emplyeeTaskList) {
-        this.emplyeeTaskList = emplyeeTaskList;
+        this.employeeTaskList = emplyeeTaskList;
     }
 
     public WorkCard getWorkCard() {
@@ -92,5 +93,12 @@ public class Employee {
 
     public void setId(Long id) {
         this.id = id;
+    }
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
     }
 }
